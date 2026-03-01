@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
-import { servicePricing } from '../config/servicePricing';
+
 
 const Services = ({ onOrderClick }) => {
   useEffect(() => {
