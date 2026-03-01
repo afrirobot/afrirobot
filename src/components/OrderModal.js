@@ -46,9 +46,10 @@ const OrderModal = ({ isOpen, onClose, selectedService }) => {
     }
   }, [isOpen, onClose]);
 
-  useEffect(() => {
-    updateOrderSummary();
-  }, [selections, currentService]);
+useEffect(() => {
+  updateOrderSummary();
+}, [selections, currentService, updateOrderSummary]);
+
 
   const updateOrderSummary = () => {
     let newTotal = 0;
