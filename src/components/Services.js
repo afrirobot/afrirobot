@@ -67,15 +67,14 @@ const Services = ({ onOrderClick }) => {
             <div className="pricing-info">
               <span className="price-tag">{service.price}</span>
             </div>
-            <a 
-              href="#" 
-              className="btn order-btn" 
-              data-service={service.key}
-              data-icon={service.icon}
-              onClick={(e) => handleOrderClick(e, service.key)}
-            >
-              Order Now
-            </a>
+            <button 
+  className="btn order-btn" 
+  data-service={service.key}
+  data-icon={service.icon}
+  onClick={(e) => handleOrderClick(e, service.key)}
+>
+  Order Now
+</button>
           </div>
         ))}
       </div>
