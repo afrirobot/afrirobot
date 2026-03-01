@@ -1,5 +1,5 @@
 import React from 'react';
-import { servicePricing } from '../config/servicePricing';
+
 
 const ServiceSelectionModal = ({ isOpen, onClose, onSelectService }) => {
   if (!isOpen) return null;
