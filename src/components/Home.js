@@ -40,16 +40,12 @@ const Home = ({ onOrderClick }) => {
             <i class="fa-brands fa-x-twitter"></i>
           </a>
         </div>
-        <a 
-          href="#" 
-          className="btn order-now-btn" 
-          onClick={(e) => {
-            e.preventDefault();
-            onOrderClick();
-          }}
-        >
-          Order Now
-        </a>
+       <button 
+  className="btn order-now-btn" 
+  onClick={onOrderClick}
+>
+  Order Now
+</button>
       </div>
       <div className="home-img">
         <img src="logos/logo.avif" alt="Afrirobot Logo" />
